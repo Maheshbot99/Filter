@@ -13,8 +13,8 @@ class script(object):
 - 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁 👉 :<a href=https://t.me/CrazyXBoTs>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>
 
 <b>DEVS:</b>
-- 𝚄𝙿𝙳𝙰𝚃𝙴𝚂<a href=https://t.me/CrazyXBoTs>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>
-- 𝙾𝚆𝙽𝙴𝚁<a href=https://t.me/CrazyXBoTsBot>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>"""
+- 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 <a href=https://t.me/CrazyXBoTs>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>
+- 𝙾𝚆𝙽𝙴𝚁 <a href=https://t.me/CrazyXBoTsBot>𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴</a>"""
 
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
 
