@@ -337,23 +337,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "removebg":
         await query.message.edit_text("**Select required mode**",
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton(text="𝖶𝗂𝗍𝗁 𝖶𝗁𝗂𝗍𝖾 𝖡𝖦", callback_data="rmbgwhite"),
-                InlineKeyboardButton(text="𝖶𝗂𝗍𝗁𝗈𝗎𝗍 𝖡𝖦", callback_data="rmbgplain"),
+                InlineKeyboardButton(text="ᴡɪᴛʜ ᴡʜɪᴛᴇ ʙɢ", callback_data="rmbgwhite"),
+                InlineKeyboardButton(text="ᴡɪᴛʜᴏᴜᴛ ʙɢ", callback_data="rmbgplain"),
                 ],[
-                InlineKeyboardButton(text="𝖲𝗍𝗂𝖼𝗄𝖾𝗋", callback_data="rmbgsticker"),
+                InlineKeyboardButton(text="ꜱᴛɪᴄᴋᴇʀ", callback_data="rmbgsticker"),
                 ],[
-                InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='photo')
+                InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='photo')
              ]])
         )
     elif query.data == "stick":
         await query.message.edit("**Select a Type**",            
             reply_markup=InlineKeyboardMarkup( [[
-               InlineKeyboardButton(text="𝖭𝗈𝗋𝗆𝖺𝗅", callback_data="stkr"),
-               InlineKeyboardButton(text="𝖤𝖽𝗀𝖾 𝖢𝗎𝗋𝗏𝖾𝖽", callback_data="cur_ved"),
+               InlineKeyboardButton(text="ɴᴏʀᴍᴀʟ", callback_data="stkr"),
+               InlineKeyboardButton(text="ᴇᴅɢᴇ ᴄᴜʀᴠᴇᴅ", callback_data="cur_ved"),
                ],[                    
-               InlineKeyboardButton(text="𝖢𝗂𝗋𝖼𝗅𝖾", callback_data="circle_sticker")
+               InlineKeyboardButton(text="ᴄɪʀᴄʟᴇ", callback_data="circle_sticker")
                ],[
-               InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='photo')
+               InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='photo')
                ]]                
            )
        )
@@ -365,17 +365,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
                ],[
                InlineKeyboardButton(text="270", callback_data="270")
                ],[
-               InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='photo')
+               InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='photo')
                ]]
            )
        )
     elif query.data == "glitch":
         await query.message.edit_text("**Select required mode**",
             reply_markup=InlineKeyboardMarkup( [[
-               InlineKeyboardButton(text="𝖭𝗈𝗋𝗆𝖺𝗅", callback_data="normalglitch"),
-               InlineKeyboardButton(text="𝖲𝖼𝖺𝗇 𝖫𝖺𝗂𝗇𝗌", callback_data="scanlineglitch")
+               InlineKeyboardButton(text="ɴᴏʀᴍᴀʟ", callback_data="normalglitch"),
+               InlineKeyboardButton(text="ꜱᴄᴀɴ ʟᴀɪɴꜱ", callback_data="scanlineglitch")
                ],[
-               InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='photo')
+               InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='photo')
                ]]
            )
        )
@@ -389,7 +389,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                InlineKeyboardButton(text="4", callback_data="normalglitch4"),
                InlineKeyboardButton(text="5", callback_data="normalglitch5"),
                ],[
-               InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='glitch')
+               InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='glitch')
                ]]
            )
        )
@@ -403,7 +403,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                InlineKeyboardButton(text="4", callback_data="scanlineglitch4"),
                InlineKeyboardButton(text="5", callback_data="scanlineglitch5"),
                ],[
-               InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='glitch')
+               InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='glitch')
                ]]
            )
        )
@@ -415,7 +415,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                ],[
                InlineKeyboardButton(text="𝖦𝖺𝗎𝗌𝗌𝗂𝖺𝗇", callback_data="gas")
                ],[
-               InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='photo')
+               InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='photo')
                ]]
            )
        )
@@ -425,20 +425,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
                InlineKeyboardButton(text="𝖶𝗂𝗍𝗁 𝖡𝖦", callback_data="circlewithbg"),
                InlineKeyboardButton(text="𝖶𝗂𝗍𝗁𝗈𝗎𝗍 𝖡𝖦", callback_data="circlewithoutbg"),
                ],[
-               InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='photo')
+               InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='photo')
                ]]
            )
        )
     elif query.data == "border":
         await query.message.edit("**Select Border**",
             reply_markup=InlineKeyboardMarkup( [[
-               InlineKeyboardButton(text="𝖱𝖾𝖽", callback_data="red"),
-               InlineKeyboardButton(text="𝖦𝗋𝖾𝖾𝗇", callback_data="green"),
+               InlineKeyboardButton(text="ʀᴇᴅ", callback_data="red"),
+               InlineKeyboardButton(text="ɢʀᴇᴇɴ", callback_data="green"),
                ],[
-               InlineKeyboardButton(text="𝖡𝗅𝖺𝖼𝗄", callback_data="black"),
-               InlineKeyboardButton(text="𝖡𝗅𝗎𝖾", callback_data="blue"),
+               InlineKeyboardButton(text="ʙʟᴀᴄᴋ", callback_data="black"),
+               InlineKeyboardButton(text="ʙʟᴜᴇ", callback_data="blue"),
                ],[                    
-               InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='photo')   
+               InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='photo')   
                ]]                
            )
        )
@@ -526,13 +526,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":                        
         buttons = [[
-            InlineKeyboardButton("➕️ 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton("➕️ ᴀᴅᴅ ᴍᴇ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴩ ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢", url="https://t.me/Cinema_Rockets")
+            InlineKeyboardButton("🔍 ꜱᴇᴀʀᴄʜ 🔍", switch_inline_query_current_chat=''), 
+            InlineKeyboardButton("📢 ᴜᴩᴅᴀᴛᴇꜱ 📢", url="https://t.me/Cinema_Rockets")
             ],[
-            InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿 ℹ️", callback_data="help"),
-            InlineKeyboardButton("💫 𝙰𝙱𝙾𝚄𝚃 💫", callback_data="about")
+            InlineKeyboardButton("ℹ️ ʜᴇʟᴩ ℹ️", callback_data="help"),
+            InlineKeyboardButton("💫 ᴀʙᴏᴜᴛ 💫", callback_data="about")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.edit_message_media(
@@ -541,27 +541,27 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "photo":
         buttons = [[
-            InlineKeyboardButton(text="𝖡𝗋𝗂𝗀𝗍𝗁", callback_data="bright"),
-            InlineKeyboardButton(text="𝖬𝗂𝗑𝖾𝖽", callback_data="mix"),
-            InlineKeyboardButton(text="𝖡 & 𝖶", callback_data="b|w"),
+            InlineKeyboardButton(text="ʙʀɪɢᴛʜ", callback_data="bright"),
+            InlineKeyboardButton(text="ᴍɪxᴇᴅ", callback_data="mix"),
+            InlineKeyboardButton(text="ʙ & ᴡ", callback_data="b|w"),
             ],[
-            InlineKeyboardButton(text="𝖢𝗂𝗋𝖼𝗅𝖾", callback_data="circle"),
-            InlineKeyboardButton(text="𝖡𝗅𝗎𝗋", callback_data="blur"),
-            InlineKeyboardButton(text="𝖡𝗈𝗋𝖽𝖾𝗋", callback_data="border"),
+            InlineKeyboardButton(text="ᴄɪʀᴄʟᴇ", callback_data="circle"),
+            InlineKeyboardButton(text="ʙʟᴜʀ", callback_data="blur"),
+            InlineKeyboardButton(text="ʙᴏʀᴅᴇʀ", callback_data="border"),
             ],[
-            InlineKeyboardButton(text="𝖲𝗍𝗂𝖼𝗄𝖾𝗋", callback_data="stick"),
-            InlineKeyboardButton(text="𝖱𝗈𝗍𝖺𝗍𝖾", callback_data="rotate"),
-            InlineKeyboardButton(text="𝖢𝗈𝗇𝗍𝗋𝖺𝗌𝗍", callback_data="contrast"),
+            InlineKeyboardButton(text="ꜱᴛɪᴄᴋᴇʀ", callback_data="stick"),
+            InlineKeyboardButton(text="ʀᴏᴛᴀᴛᴇ", callback_data="rotate"),
+            InlineKeyboardButton(text="ᴄᴏɴᴛʀᴀꜱᴛ", callback_data="contrast"),
             ],[
-            InlineKeyboardButton(text="𝖲𝖾𝗉𝗂𝖺", callback_data="sepia"),
-            InlineKeyboardButton(text="𝖯𝖾𝗇𝖼𝗂𝗅", callback_data="pencil"),
-            InlineKeyboardButton(text="𝖢𝖺𝗋𝗍𝗈𝗈𝗇", callback_data="cartoon"),
+            InlineKeyboardButton(text="ꜱᴇᴩɪᴀ", callback_data="sepia"),
+            InlineKeyboardButton(text="ᴩᴇɴᴄɪʟ", callback_data="pencil"),
+            InlineKeyboardButton(text="ᴄᴀʀᴛᴏᴏɴ", callback_data="cartoon"),
             ],[
-            InlineKeyboardButton(text="𝖨𝗇𝗏𝖾𝗋𝗍", callback_data="inverted"),
-            InlineKeyboardButton(text="𝖦𝗅𝗂𝗍𝖼𝗁", callback_data="glitch"),
-            InlineKeyboardButton(text="𝖱𝖾𝗆𝗈𝗏𝖾 𝖡𝖦", callback_data="removebg")
+            InlineKeyboardButton(text="ɪɴᴠᴇʀᴛ", callback_data="inverted"),
+            InlineKeyboardButton(text="ɢʟɪᴛᴄʜ", callback_data="glitch"),
+            InlineKeyboardButton(text="ʀᴇᴍᴏᴠᴇ ʙɢ", callback_data="removebg")
             ],[
-            InlineKeyboardButton(text="𝖢𝗅𝗈𝗌𝖾", callback_data="close_data")
+            InlineKeyboardButton(text="ᴄʟᴏꜱᴇ", callback_data="close_data")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)        
         await query.edit_message_media(
